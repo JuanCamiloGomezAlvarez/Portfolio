@@ -3,7 +3,7 @@ import "./styles.css"
 
 export default function InteractiveText(){
     return(
-        <React.Fragment>
+        <>
             <div className="container">
                <ul>
                 <li>Software Developer</li>
@@ -12,6 +12,6 @@ export default function InteractiveText(){
             </ul> 
             </div>
             
-        </React.Fragment>
+        </>
     )
 }
