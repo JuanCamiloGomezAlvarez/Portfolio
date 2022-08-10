@@ -6,7 +6,7 @@ export default function Header(){
     return(
         <header>
             <div className = "profile">
-                <img className = "profile-img" src="/public/images/profile-photo.jpg" alt="profile-photo"/>
+                <img className = "profile-img" src="" alt="profile-photo"/>
                 <div className = "profile-greetings">
                     <p>Hi! I'm Juan</p>
                     <span><InteractiveText /></span>

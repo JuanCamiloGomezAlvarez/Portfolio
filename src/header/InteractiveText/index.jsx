@@ -7,8 +7,8 @@ export default function InteractiveText(){
             <div className="container">
                <ul>
                 <li>Software Developer</li>
-                <li>Math lover</li>
                 <li>Freelance</li>
+                <li>Math lover</li>
             </ul> 
             </div>
             
