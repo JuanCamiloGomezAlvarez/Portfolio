@@ -1,12 +1,12 @@
 import React from "react";
-import "./Header.css"
-import InteractiveText from "./InteractiveText";
+import "./styles.css"
+import InteractiveText from "../InteractiveText";
 
 export default function Header(){
     return(
         <header>
             <div className = "profile">
-                <img className = "profile-img" src="" alt="profile-photo"/>
+                <img className = "profile-img" src="../../../public/img/foto-recortada.jpg" alt="profile-photo"/>
                 <div className = "profile-greetings">
                     <p>Hi! I'm Juan</p>
                     <span><InteractiveText /></span>
@@ -22,4 +22,3 @@ export default function Header(){
         </header>
     )
 }
-
