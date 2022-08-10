@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css"
 import InteractiveText from "../InteractiveText";
+import IconSocialMedia from "../IconSocialMedia";
 
 export default function Header(){
     return(
@@ -15,9 +16,12 @@ export default function Header(){
             <nav>
                 <a href="/">Home</a>
                 <a href="/">About</a>
-                <a href="/">Social Media</a>
                 <a href="/">Projects</a>
+                
             </nav>
+            <IconSocialMedia/>
+                
+        
         
         </header>
     )

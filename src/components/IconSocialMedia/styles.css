@@ -1,0 +1,26 @@
+.icon-container{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.fa{
+    font-size: 4rem;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover{
+    color:#0D7504;
+}
+
+@media (min-width:769px){
+    .icon-container{
+        width: 20%;
+        padding-top: 0;
+    }
+}

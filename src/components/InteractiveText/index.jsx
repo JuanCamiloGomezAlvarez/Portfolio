@@ -8,7 +8,7 @@ export default function InteractiveText(){
                <ul>
                 <li>Software Developer</li>
                 <li>Freelance</li>
-                <li>Math lover</li>
+                <li>Learning lover</li>
             </ul> 
             </div>
             
