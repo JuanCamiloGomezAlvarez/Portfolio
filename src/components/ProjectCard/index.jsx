@@ -1,20 +1,20 @@
 import "./styles.css"
 
-export default function ProjectCard(){
+export default function ProjectCard({title, description, link, img}){
     return(
         <>
             <div className="card-container">
                 <div className="card-container-context">
                     <div className="card-container_img">
-                        <img src="https://crm.academiaintegral.com.es//uploads/courses/5591/5bfebd041091cb7f7ada7d8_ll.jpg" alt="this is the picture of the porject" />
+                        <img src={img} alt="this is the picture of the porject" />
                     </div>
                     <div className="card-container_info">
-                        <h4>Project</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi labore, at officiis ipsa error asperiores eaque nesciunt voluptates culpa.</p> 
+                        <h4>{title}</h4>
+                        <p>{description}</p> 
                     </div>
                 </div>
                 <div className="card-container_link">
-                    <a href="/">See project</a>
+                    <a href={link}>See project</a>
                 </div>
             </div>
 

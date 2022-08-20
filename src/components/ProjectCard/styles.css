@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    
     justify-self: center;
     justify-content: center;
     align-items: center;
@@ -13,6 +14,7 @@
     box-shadow: 12px 12px  10px 5px  rgba(0, 0, 0, 0.7);
     padding: 15px;
     border-radius : 16px 16px 0 0;
+    
 }
 
 .card-container_img {
@@ -25,6 +27,12 @@
     width: 90%;
     height: 220px;
     object-fit: cover;
+    border-radius: 16px;
+}
+
+.card-container_info{
+    height: 100px;
+    word-break:break-all;
 }
 
 .card-container_info h4{
