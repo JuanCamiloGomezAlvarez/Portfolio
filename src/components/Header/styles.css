@@ -16,33 +16,38 @@ body{
     /*background-color: #0F1711;*/
 }
 
-header{
+.header{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row; 
+    justify-content: space-between;
     width: 100%;
     height: auto;
+    padding: 5px 0;
+    position: sticky;
+    top: 0px;
     background-color: #17171C;
+    border-bottom: 3px solid #0D7504;
+    
     /*background-color: #0F1711;*/
 }
 
 .profile{
+    width: 80px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .profile-img{
-    width: 250px;
-    height: 250px;
-    margin-top: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #0D7504 ;
+    border: 2px solid #0D7504 ;
 }
 
-.profile-greetings{
+/* .profile-greetings{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,9 +55,9 @@ header{
     padding-bottom: 30px;
     border-bottom: 5px solid #0D7504;
     word-break: break-all;
-}
+} */
 
-.profile-greetings p:nth-child(1){
+/* .profile-greetings p:nth-child(1){
     color: white;
     font-size: 3rem;
     font-weight: bold; 
@@ -62,14 +67,43 @@ header{
     color: aliceblue;
     font-size: 3rem;
     font-weight:bold;
-}
+} */
 
-nav{
+.menuNav{
+    margin-top: 15px;
+    width: 80px;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 30px;
+}
 
+.menuNav div {
+    width: 40px;
+    height: 4px;
+    background-color :#0B6104;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.toggle-nav{
+    display: none;
+}
+
+.menuNav-list{
+    position: absolute;
+    top: 63px;
+    right: 0;
+    width: 45%;
+    border-bottom: 3px solid #0D7504 ;
+    border-left: 3px solid #0D7504 ;
+    background-color: #17171C; ;
+}
+nav{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav a:nth-child(1){
@@ -107,10 +141,10 @@ nav a:nth-child(3){
     text-decoration: none;
 }
 
-nav a:nth-child(4){
+/* nav a:nth-child(4){
     display: inline-block;
     padding: 4px;
-    /*background-color:#0B6104 ;*/
+    background-color:#0B6104 ;
     border-radius: 18px;
     color: aliceblue;
     font-size: 2.5rem;
@@ -118,9 +152,40 @@ nav a:nth-child(4){
     margin-top: 20px;
     text-decoration: none;
 }
-
+ */
 nav a:hover{
     color: #0D7504;
+}
+
+.toggle-picture{
+    display: none;
+}
+
+.picture-container{
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+    border-radius: 8px;
+}
+
+.picture-container a{
+    text-decoration: none;
+}
+.picture-container span{
+    position: relative;
+    right: -260px;
+    top: -215px;
+    color: white;
+    font-size: 3rem;
+}
+
+.picture-container img{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 @media (min-width:769px){

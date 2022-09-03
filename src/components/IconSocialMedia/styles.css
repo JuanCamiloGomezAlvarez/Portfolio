@@ -4,12 +4,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
+    padding: auto 0;
 
 }
 
 .fa{
-    font-size: 4rem;
+    font-size: 3rem;
     text-decoration: none;
     color: white;
 }
