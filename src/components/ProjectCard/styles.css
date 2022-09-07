@@ -55,9 +55,6 @@
     align-items: center;
     background-color: #0D7504;
     border-radius: 0 0 16px 16px;
-}
-
-.card-container_link a {
     text-decoration: none;
     font-size: 1.8rem;
     color: white;

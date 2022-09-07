@@ -13,9 +13,9 @@ export default function ProjectCard({title, description, link, img}){
                         <p>{description}</p> 
                     </div>
                 </div>
-                <div className="card-container_link">
-                    <a href={link}>Look the project</a>
-                </div>
+                 
+                <a className="card-container_link" href={link}>Look the project</a>
+                
             </div>
 
         </>
