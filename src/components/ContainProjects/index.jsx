@@ -16,6 +16,12 @@ export default function ContainProjects(){
             description: "This is an App made in Platzi, using API REST.",
             link: "https://juancamilogomezalvarez.github.io/Movie-App/",
             img: "https://www.androidauthority.com/wp-content/uploads/2019/06/Tubi-best-movie-apps-for-Android.jpg"
+        },
+        {
+            title: "Responsive Form",
+            description: "This is a responsive form made with css.",
+            link: "https://juancamilogomezalvarez.github.io/responsive-form/",
+            img: "https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png"
         }
 
     
