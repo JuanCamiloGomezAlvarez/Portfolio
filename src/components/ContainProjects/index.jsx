@@ -28,6 +28,12 @@ export default function ContainProjects(){
             description: "This exercise uses CSS and Javascript to make an animated reload circle.",
             link: " https://juancamilogomezalvarez.github.io/barra-progreso-circular/",
             img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVC9W3Fw_EZeIX9IlWHxkwfcCs_CsuBTkEAg&usqp=CAU"
+        },
+        {
+            title: "Price cards",
+            description: "This exercise uses CSS to make a responsive price cards.",
+            link: "https://juancamilogomezalvarez.github.io/price-cards/",
+            img: "https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png"
         }
 
     
