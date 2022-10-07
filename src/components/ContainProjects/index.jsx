@@ -34,7 +34,20 @@ export default function ContainProjects(){
             description: "This exercise uses CSS to make a responsive price cards.",
             link: "https://juancamilogomezalvarez.github.io/price-cards/",
             img: "https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png"
+        },
+        {
+            title: "Blog CSS y HTML",
+            description: "This exercise uses CSS and HTML to create a personal blog .",
+            link: "https://juancamilogomezalvarez.github.io/blog-maquetacion-css/",
+            img: "https://images.pexels.com/photos/7672255/pexels-photo-7672255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            title: "Matematicas con JS",
+            description: "This exercise uses JavaScript to solve some math problems.",
+            link: "https://juancamilogomezalvarez.github.io/math-javascript/",
+            img: "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836_960_720.jpg"
         }
+
 
     
     ]
