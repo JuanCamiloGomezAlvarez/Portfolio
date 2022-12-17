@@ -46,6 +46,18 @@ export default function ContainProjects(){
             description: "This exercise uses JavaScript to solve some math problems.",
             link: "https://juancamilogomezalvarez.github.io/math-javascript/",
             img: "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836_960_720.jpg"
+        },
+        {
+            title: "Piedra papel y tijers",
+            description: "El clasico juego de piedra papel o tijera hecho con HTML, JS y CSS.",
+            link: "https://juancamilogomezalvarez.github.io/piedra-papel-tijera/",
+            img: "https://media.istockphoto.com/id/1324377846/es/foto/collage-digital-arte-moderno-signo-de-mano-de-roca-tijera-y-papel-con-geometr%C3%ADa-de-conflicto.jpg?s=612x612&w=0&k=20&c=F6aI6jI4yxqkM1qBZFOAKDhKkDpXr5Q49wrggz7LZYQ="
+        },
+        {
+            title: "Mokepon",
+            description: "Proyecto realizado en el curso de programación de Platzi, con un toque personal. HTML, JS y CSS.",
+            link: "https://juancamilogomezalvarez.github.io/mokipon/",
+            img: "https://juancamilogomezalvarez.github.io/mokipon/img/mokepons_mokepon_ratigueya_attack.png"
         }
 
 

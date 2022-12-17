@@ -171,6 +171,7 @@ nav a:hover{
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 3px solid #0B6104;
+        background-color: #17171C;
     }
 
     .header{
