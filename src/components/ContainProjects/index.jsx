@@ -9,7 +9,7 @@ export default function ContainProjects(){
             title: "Mokepon",
             description: "Proyecto realizado en el curso de programación de Platzi, con un toque personal. HTML, JS y CSS.",
             link: "https://juancamilogomezalvarez.github.io/mokipon/public/index.html",
-            img: "https://juancamilogomezalvarez.github.io/mokipon/img/mokepons_mokepon_ratigueya_attack.png"
+            img: "https://juancamilogomezalvarez.github.io/mokipon/public/img/mokepons_mokepon_ratigueya_attack.png"
         },
         {
             title: "BatataBit",
