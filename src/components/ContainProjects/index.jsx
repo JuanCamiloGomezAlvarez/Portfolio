@@ -6,6 +6,12 @@ export default function ContainProjects(){
 
     const projects = [
         {
+            title: "Mokepon",
+            description: "Proyecto realizado en el curso de programación de Platzi, con un toque personal. HTML, JS y CSS.",
+            link: "https://juancamilogomezalvarez.github.io/mokipon/public/index.html",
+            img: "https://juancamilogomezalvarez.github.io/mokipon/img/mokepons_mokepon_ratigueya_attack.png"
+        },
+        {
             title: "BatataBit",
             description: "This is a project made in Platzi to improve my skills in css, html and js.",
             link: "https://juancamilogomezalvarez.github.io/Batata-Bit/",
@@ -53,15 +59,7 @@ export default function ContainProjects(){
             link: "https://juancamilogomezalvarez.github.io/piedra-papel-tijera/",
             img: "https://media.istockphoto.com/id/1324377846/es/foto/collage-digital-arte-moderno-signo-de-mano-de-roca-tijera-y-papel-con-geometr%C3%ADa-de-conflicto.jpg?s=612x612&w=0&k=20&c=F6aI6jI4yxqkM1qBZFOAKDhKkDpXr5Q49wrggz7LZYQ="
         },
-        {
-            title: "Mokepon",
-            description: "Proyecto realizado en el curso de programación de Platzi, con un toque personal. HTML, JS y CSS.",
-            link: "https://juancamilogomezalvarez.github.io/mokipon/",
-            img: "https://juancamilogomezalvarez.github.io/mokipon/img/mokepons_mokepon_ratigueya_attack.png"
-        }
-
-
-    
+        
     ]
 
     return(
